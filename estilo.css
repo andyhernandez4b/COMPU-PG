@@ -1,0 +1,142 @@
+*{margin:0;
+    box-sizing: border-box;
+}
+ p{
+    color:bisque;
+ }
+
+ h3{
+color: coral;
+ }
+
+
+ h2{
+    color:coral;
+ }
+h1{
+    font-size: 50;
+    text-align: center;
+    color:coral;
+}
+body {font-family: Arial, Helvetica, sans-serif;
+    padding: 90px 20px 0;
+
+    background-image: url(background.gif);
+    background-position: center;
+    background-size: cover;
+
+}
+.imagen{
+    text-align: center;
+}
+
+.nml:hover{
+    background-color: white;
+    transition: 1;
+
+}
+
+@media(max-width:768px){
+    body{background-color: white;
+        padding-top: 70px;
+    }
+
+    .header{height: 60px;}
+
+}
+
+.nmi{line-height: 70px;}
+
+.btn{background-color: white;
+border:none;
+color: white;
+padding: 12px 16px;
+font-size: 16px;
+cursor: pointer;}
+
+*{
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 90px 20px 0;
+
+}
+
+.header{
+   background-color:9D1B1B;
+   height: 80px;
+   position:fixed;
+   width: 100%;
+   top: 0;
+   left: 0; 
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+
+}
+
+.navml{
+  color:white;
+  text-decoration: none;
+}
+
+.logo{
+ font-size: 40px;
+ font-weight: bold;
+ padding: 0 30px;  
+ line-height: 80px; 
+}
+
+.nav-menu{ 
+        display: flex;
+        margin-right: 40px;
+        list-style: none;
+}
+      
+ .nmi{
+       font-size: 18px;
+       margin: 0 10px;
+       line-height: 80px;
+       text-transform: uppercase;
+       width: max-content;
+     } 
+     
+  .nml{
+    padding: 8px 12px;
+    border-radius: 5px;
+
+  }
+  .nml:hover{
+       background-color: 002C85;
+       transition: 1;
+  }
+
+  .toggle{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+
+  }
+
+  @media (max-width: 768px){
+    body{
+         background-color: rgb(0, 128, 58);
+         padding-top: 70px;
+    }
+    
+.header{
+   height: 60px;
+}
+  }
+ 
